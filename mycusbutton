@@ -71,7 +71,7 @@ public class MyButton extends Button {
 			int specMode = MeasureSpec.getMode(measureSpec);
 			int specSize = MeasureSpec.getSize(measureSpec);
 			if (specMode == MeasureSpec.EXACTLY) {
-			// We were told how big to be
+			//// We were told how big to be
 			result = specSize;
 			} else {
 			// Measure the text
